@@ -1,5 +1,7 @@
+import { getStaticFile } from "../utilities";
+
 const serveNoRoute = () => {
-  return new Response("Route not found");
+  return new Response(getStaticFile('noroute.html'));
 }
 
 export default serveNoRoute;

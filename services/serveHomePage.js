@@ -1,6 +1,7 @@
+import { getStaticFile } from "../utilities";
+
 const serveHomePage = () => {
-  console.log('serveHomePage')
-  return new Response('/oki');
+  return new Response(getStaticFile('index.html'));
 };
 
 export default serveHomePage;
