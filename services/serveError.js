@@ -1,7 +1,6 @@
 import { getHeaders } from "../utilities";
 
 const serveError = (error) => {
-  console.log('getHeaders', getHeaders());
   return new Response(`<!DOCTYPE html>
     <html lang="en">
     <head>

@@ -1,6 +1,6 @@
 import initializeDatabase from "./database";
 
-//ReSTful :
+//ReSTful:
 import getUsers from "./services/getUsers";
 import postNewUser from "./services/postNewUser";
 import serveBlogPage from "./services/serveBlogPage";

@@ -177,3 +177,5 @@ dist
 *.db
 *.db-shm
 *.db-wal
+
+brute.js

@@ -50,7 +50,6 @@ export class AppDatabase {
     const queryData = this.db.query(sqlQuery);
     queryData.run();
     queryData.finalize();
-
   }
 
   close() {
