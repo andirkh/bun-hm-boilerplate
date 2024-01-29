@@ -1,5 +1,5 @@
 export const getStaticFile = (filename) => {
-  return Bun.file(import.meta.dir + `/static/${filename}`);
+  return Bun.file(`${Bun.env.PATH_TO_STATIC}${filename}`);
 }
 
 export const getHeaders = (type) => {
