@@ -1,0 +1,15 @@
+{
+  "name": "bun-hm-boilerplate",
+  "module": "server.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "build-exec": "bun build ./server.js --compile --outfile ../out",
+    "build-js": "bun build ./server.js --outdir ../out",
+    "dev": "bun run ./server.js",
+    "hot": "bun --hot ./server.js",
+    "watch": "bun --watch ./server.js"
+  },
+  "type": "module"
+}
